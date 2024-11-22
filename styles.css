@@ -5,8 +5,8 @@
 :root{
 
     /* Primary */
-    --Cyan: #1ca7a7;
-    --Dark-Violet: hsl(257, 27%, 26%);
+    --button-color: #e26e2b;
+    --any-color: hsl(143, 64%, 49%);
 
     /* Secondary */
 
@@ -67,7 +67,7 @@ nav{
     position: absolute;
     top: 80px;
     left: -1000px;
-    background-color: var(--Dark-Violet);
+    background-color: var(--any-color);
     color: white;
     padding: 30px;
     border-radius: 10px;
@@ -106,7 +106,7 @@ nav a{
     margin: 0 10px;
 }
 .main-btns{
-    background-color: var(--Cyan);
+    background-color: var(--button-color);
     color: white;
     padding: 10px 25px;
     border-radius: 50px;
@@ -169,14 +169,14 @@ button{
 
 /* ============ Form ============ */
 .stats-bg{
-    background-color: rgba(164, 142, 172, 0.15);
+    background-color: rgba(29, 43, 230, 0.15);
     min-width: 370px;
 }
 .form-result{
     margin: 0 30px;
 }
 .form-container{
-    background-color: var(--Dark-Violet);
+    background-color: var(--any-color);
     background-image: url("images/bg-shorten-desktop.svg");
     background-size: 100% 100%;
     border-radius: 10px;
@@ -235,14 +235,14 @@ main .main-btns{
     width: 100%;
 }
 .short-link a{
-    color: var(--Cyan);
+    color: var(--button-color);
     margin-right: 20px;
 }
 .copy-btn{
     margin-top: 20px;
 }
 .copied{
-    background: var(--Dark-Violet);
+    background: var(--any-color);
 }
 #error{
     color: var(--Red);
@@ -277,7 +277,7 @@ main .main-btns{
     gap: 20px;
 }
 .stat-col-container hr{
-    border: 3px solid var(--Cyan);
+    border: 3px solid var(--button-color);
     transform: rotate(90deg);
     position: relative;
     z-index: -1;
@@ -299,7 +299,7 @@ main .main-btns{
     top: -30px;
     left: 50%;
     transform: translate(-50%);
-    background-color: var(--Dark-Violet);
+    background-color: var(--any-color);
     width: fit-content;
     padding: 15px 15px 10px;
     border-radius: 50%;
@@ -307,7 +307,7 @@ main .main-btns{
 .stat-col-head{
     margin-bottom: 15px;
     font-size: 1.3rem;
-    color: var(--Dark-Violet);
+    color: var(--any-color);
 }
 .stat-col-desc{
     color: var(--Grayish-Violet);
@@ -316,7 +316,7 @@ main .main-btns{
 
 /* ============ Boost Container ============ */
 .boost-bg{
-    background-color: var(--Dark-Violet);
+    background-color: var(--any-color);
     background-image: url("images/bg-boost-desktop.svg");
     background-size: 100% 100%;
     min-width: 370px;
@@ -363,7 +363,7 @@ footer .grid-container{
     font-size: 1rem;
 }
 .footer-nav-col a:hover{
-    color: var(--Cyan);
+    color: var(--button-color);
 }
 footer .col-2{
     grid-column: span 12;
@@ -529,7 +529,7 @@ footer .col-2{
         margin: 0px 15px;
     }
     .nav-item a:hover{
-        color: var(--Dark-Violet);
+        color: var(--any-color);
     }
     .nav-btns{
         grid-column-start: 10;
