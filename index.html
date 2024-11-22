@@ -7,7 +7,7 @@
   <meta name="description" content="URL Shortening API Landing Page built by Karishma Garg for a Frontend Mentor Challenge">
   <meta name="theme-color" content="#000000">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
   <script src="https://kit.fontawesome.com/5731f6d037.js" crossorigin="anonymous"></script>
   <title>Shortly URL shortening API Landing Page</title>
 
@@ -89,11 +89,12 @@
 
         <!-- Form Container -->
         <div class="form-container col-12">
-          <form class="col-12" name="url_form" id="form" action="submit">
+          <form class="col-12" name="url_form" id="form">
             <input type="url" name="url" id="url-input" placeholder="Shorten a link here..." class="">
             <div id="error"></div>
-            <button class="main-btns" id="submit-url">Shorten It!</button>
+            <button type="button" class="main-btns" id="submit-url">Shorten It!</button>
           </form>
+          <div id="result"></div>
         </div>
 
       </div>
